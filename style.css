@@ -1,12 +1,12 @@
 :root {
-	--dark: #374151;
-	--darker: #1F2937;
-	--darkest: #111827;
-	--grey: #6B7280;
-	--pink: #EC4899;
-	--purple: #8B5CF6;
-	--light: #EEE;
-	--cyan: rgb(14, 248, 194);
+	--dark: #4f969b;
+	--darker: #934e8f;
+	--darkest: #0c781e;
+	--grey: #b1b5bf;
+	--pink: #ffaed7;
+	--purple: #433369;
+	--light: rgb(74, 37, 80);
+	--cyan: rgb(8, 46, 37);
 }
 
 * {
@@ -32,7 +32,7 @@ header {
 
 header h1{ 
 	font-size: 2.5rem;
-	font-weight: 300;
+	font-weight: bold;
 	background-image: linear-gradient(to right, var(--cyan), var(--purple));
 	-webkit-background-clip: text;
 	background-clip: transparent;
@@ -102,7 +102,7 @@ main {
 
 .lis h2 {
 	font-size: 1.5rem;
-	font-weight: 300;
+	font-weight: bold;
 	color: var(--cyan);
 	margin-bottom: 1rem;
 }
